@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+  <ImageView
+      android:id="@+id/imagehere"
+      android:layout_width="match_parent"
+      android:layout_height="350dp"
+      android:scaleType="centerCrop"
+      android:src="@drawable/why" />
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="40dp"
+      android:text="Laynes Espresso"
+      android:background="#ff6347"
+      android:textColor="#000000"
+      android:textSize="35sp"
+      android:textStyle="bold"
+      android:paddingLeft="6dp"
+    />
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/imagehere"
+      android:textColor="#000000"
+      android:textSize="20sp"
+      android:text="An espresso bar in its foundation and purpose, we're situated close to Leeds Train Station with many of its commuters relying on us for consistently great coffee drinks."
+      android:textStyle="italic"
+      android:id="@+id/secondtext"
+      />
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/secondtext"
+      android:text="CONTACT INFORMATION:
++44 7828 823189
+                            email@laynesespresso.co.uk"
+      android:textStyle="normal"
+      android:textColor="#000000"
+      android:id="@+id/thirdtext"
+      android:textSize="20sp"
+    />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/thirdtext"
+    android:textColor="#000000"
+    android:textSize="20sp"
+    android:id="@+id/fourtext"
+    android:text="Hours: WEEKDAYS - 7am to 6pm
+                                                                            WEEKENDS - 8am to 5pm"
+/>
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="ADDRESS: 16 NEW STATION STREET LEEDS, LS1 5DL"
+      android:textSize="20sp"
+    android:textColor="#000000"
+    android:layout_below="@+id/fourtext"/>
+</RelativeLayout>
